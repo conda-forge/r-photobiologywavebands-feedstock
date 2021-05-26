@@ -7,7 +7,6 @@ package:
   version: {{ version|replace("-", "_") }}
 
 source:
-  fn: photobiologyWavebands_{{ version }}.tar.gz
   url:
     - {{ cran_mirror }}/src/contrib/photobiologyWavebands_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/photobiologyWavebands/photobiologyWavebands_{{ version }}.tar.gz
@@ -38,7 +37,7 @@ test:
 
 about:
   home: http://www.r4photobiology.info/, https://bitbucket.org/aphalo/photobiologywavebands
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Constructors of waveband objects for commonly used biological spectral weighting functions (BSWFs) and for different wavebands describing named ranges of wavelengths in the ultraviolet (UV), visible (VIS) and infrared (IR) regions of the electromagnetic spectrum.
   license_family: GPL3
   license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
@@ -46,9 +45,3 @@ about:
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - johanneskoester
-    - bgruening
-    - daler
-    - jdblischak
-    - cbrueffer
-    - dbast
