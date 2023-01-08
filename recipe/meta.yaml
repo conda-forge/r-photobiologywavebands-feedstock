@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/photobiologyWavebands_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/photobiologyWavebands/photobiologyWavebands_{{ version }}.tar.gz
-  sha256: d978657f2dcddf5b1d40cf994780245f02982ea23cae9d9dac4472c8425d2212
+  sha256: 88590a88a363f33ac35a0bb6bb0abce2e05d2b8d5e95b194438790c026d06e32
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
