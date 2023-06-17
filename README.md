@@ -1,11 +1,11 @@
-About r-photobiologywavebands
-=============================
+About r-photobiologywavebands-feedstock
+=======================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-photobiologywavebands-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.r4photobiology.info/, https://bitbucket.org/aphalo/photobiologywavebands
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-photobiologywavebands-feedstock/blob/main/LICENSE.txt)
 
 Summary: Constructors of waveband objects for commonly used biological spectral weighting functions (BSWFs) and for different wavebands describing named ranges of wavelengths in the ultraviolet (UV), visible (VIS) and infrared (IR) regions of the electromagnetic spectrum.
 
